@@ -21,7 +21,7 @@ PORT = mongodb-service port
 The db service can be accessed at IP:PORT
 
 --Extra--
-Install mongo-express client ready to use the DB
+Install mongo-express client already connected to the DB
 
 $ kubectl apply -f mongo-configmap.yaml
 
